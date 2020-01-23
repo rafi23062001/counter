@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln_layout_main_activity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_count_text"
+        android:textSize="100sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextCount"/>
+    <Button
+        android:id="@+id/btn_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btn_count"
+        android:textSize="40sp"
+        android:background="@drawable/button_bg_round_green"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_reset_count"
+        android:textSize="40sp"
+        android:background="@drawable/button_bg_round_green"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
